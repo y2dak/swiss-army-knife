@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jayd.swissarmyknife.MainActivity">
+    tools:context="com.jayd.swissarmyknife.activities.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,6 +22,7 @@
 
     <Button
         android:id="@+id/button"
+        android:text="@string/add_note"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/editText"/>
