@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Swiss Army Knife</string>
     <string name="add_note">Add Note</string>
+    <string name="tab_icons_not_found">We were unable to find the tab layout icons.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
