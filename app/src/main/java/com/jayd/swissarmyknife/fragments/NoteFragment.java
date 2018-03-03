@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.jayd.swissarmyknife.R;
+import com.jayd.swissarmyknife.viewmodels.NoteViewModel;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -16,9 +17,10 @@ import com.jayd.swissarmyknife.R;
  * create an instance of this fragment.
  */
 public class NoteFragment extends Fragment {
+    NoteViewModel noteViewModel;
 
     public NoteFragment() {
-        // Required empty public constructor
+        noteViewModel = new NoteViewModel();
     }
 
     /**

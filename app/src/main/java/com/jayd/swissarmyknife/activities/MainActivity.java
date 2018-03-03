@@ -38,17 +38,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         initializeViewPager();
-
-        //TODO: Move commented code into Note fragment
-//        noteDBHelper = ((MyApplication) getApplication()).getNoteDBHelper();
-
-//        final EditText editText = findViewById(R.id.editText);
-//        final Button button = findViewById(R.id.button);
-//        button.setOnClickListener(l -> {
-//            Note note = new Note(UUID.randomUUID().toString(), editText.getText().toString());
-//            noteDBHelper.insert(note);
-//            editText.setText("");
-//        });
     }
 
     private void initializeViewPager(){
